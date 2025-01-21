@@ -1,79 +1,60 @@
 {
   "courses": [
     {
-      "courseID": 1,
+      "id": 1,
       "courseName": "Thiết kế web cơ bản",
       "description": "Nhận khóa học tốt nhất, tích lũy kiến thức và tỏa sáng cho sự nghiệp tương lai của bạn.",
-      "price": 120.75,
+      "price": 2000000,
       "duration": 40,
-      "instructorID": 1
+      "image": "https://cdn.codegym.vn/wp-content/uploads/2024/01/hoc-lap-trinh-scaled.jpg",
+      "instructorId": 1
     },
     {
-      "courseID": 2,
+      "id": 2,
       "courseName": "Thiết kế UI/UX",
       "description": "Nhận khóa học tốt nhất, tích lũy kiến thức và tỏa sáng cho sự nghiệp tương lai của bạn.",
-      "price": 120.75,
+      "price": 2000000,
       "duration": 35,
-      "instructorID": 2
+      "image": "https://cdn.codegym.vn/wp-content/uploads/2024/01/hoc-lap-trinh-scaled.jpg",
+      "instructorId": 2
     },
     {
-      "courseID": 3,
-      "courseName": "Thiết kế web nâng cao",
+      "id": 3,
+      "courseName": "Thiết kế UI/UX",
       "description": "Nhận khóa học tốt nhất, tích lũy kiến thức và tỏa sáng cho sự nghiệp tương lai của bạn.",
-      "price": 120.75,
-      "duration": 45,
-      "instructorID": 1
+      "price": 2000000,
+      "duration": 35,
+      "image": "https://cdn.codegym.vn/wp-content/uploads/2024/01/hoc-lap-trinh-scaled.jpg",
+      "instructorId": 2
     },
     {
-      "courseID": 4,
-      "courseName": "Thiết kế đồ họa",
-      "description": "Nhận khóa học tốt nhất, tích lũy kiến thức và tỏa sáng cho sự nghiệp tương lai của bạn.",
-      "price": 120.75,
-      "duration": 30,
-      "instructorID": 2
+      "courseName": "2",
+      "description": "2",
+      "price": 2,
+      "duration": 2,
+      "image": "https://cdn.codegym.vn/wp-content/uploads/2024/01/hoc-lap-trinh-scaled.jpg",
+      "instructorId": "1",
+      "id": 9
     },
     {
-      "courseID": 5,
-      "courseName": "Lập trình web cơ bản",
-      "description": "Nhận khóa học tốt nhất, tích lũy kiến thức và tỏa sáng cho sự nghiệp tương lai của bạn.",
-      "price": 120.75,
-      "duration": 40,
-      "instructorID": 1
-    },
-    {
-      "courseID": 6,
-      "courseName": "Lập trình web nâng cao",
-      "description": "Nhận khóa học tốt nhất, tích lũy kiến thức và tỏa sáng cho sự nghiệp tương lai của bạn.",
-      "price": 120.75,
-      "duration": 45,
-      "instructorID": 1
-    },
-    {
-      "courseID": 7,
-      "courseName": "Lập trình Android cơ bản",
-      "description": "Nhận khóa học tốt nhất, tích lũy kiến thức và tỏa sáng cho sự nghiệp tương lai của bạn.",
-      "price": 120.75,
-      "duration": 40,
-      "instructorID": 2
-    },
-    {
-      "courseID": 8,
-      "courseName": "Lập trình Android nâng cao",
-      "description": "Nhận khóa học tốt nhất, tích lũy kiến thức và tỏa sáng cho sự nghiệp tương lai của bạn.",
-      "price": 120.75,
-      "duration": 45,
-      "instructorID": 2
+      "courseName": "1",
+      "description": "1",
+      "price": 1,
+      "duration": 1,
+      "image": "1",
+      "instructorId": "1",
+      "id": 10
     }
   ],
   "instructors": [
     {
-      "instructorID": 1,
+      "id": 1,
       "instructorName": "Nguyễn Văn A",
       "bio": "Giảng viên thiết kế web với nhiều năm kinh nghiệm.",
       "email": "nguyenvana@example.com"
     },
     {
-      "instructorID": 2,
+      "id": 2,
       "instructorName": "Trần Thị B",
       "bio": "Chuyên gia thiết kế UI/UX.",
       "email": "tranthib@example.com"
@@ -81,13 +62,13 @@
   ],
   "students": [
     {
-      "studentID": 1,
+      "studentId": 1,
       "studentName": "Lê Văn C",
       "email": "levanc@example.com",
       "enrollmentdate": "2025-01-12"
     },
     {
-      "studentID": 2,
+      "studentId": 2,
       "studentName": "Phạm Thị D",
       "email": "phamthid@example.com",
       "enrollmentdate": "2025-01-12"
@@ -95,16 +76,16 @@
   ],
   "enrollments": [
     {
-      "enrollmentID": 1,
-      "studentID": 1,
-      "courseID": 1,
+      "enrollmentId": 1,
+      "studentId": 1,
+      "courseId": 1,
       "enrollmentdate": "2025-01-12",
       "status": "Đang học"
     },
     {
-      "enrollmentID": 2,
-      "studentID": 2,
-      "courseID": 2,
+      "enrollmentId": 2,
+      "studentId": 2,
+      "courseId": 2,
       "enrollmentdate": "2025-01-12",
       "status": "Đang học"
     }
@@ -112,66 +93,66 @@
   "transactions": [
     {
       "transactionID": 1,
-      "studentID": 1,
-      "courseID": 1,
-      "amount": 120.75,
+      "studentId": 1,
+      "courseId": 1,
+      "amount": 2000000,
       "transactiondate": "2025-01-12",
       "paymentMethod": "Credit Card"
     },
     {
       "transactionID": 2,
-      "studentID": 2,
-      "courseID": 2,
-      "amount": 120.75,
+      "studentId": 2,
+      "courseId": 2,
+      "amount": 2000000,
       "transactiondate": "2025-01-12",
       "paymentMethod": "Credit Card"
     }
   ],
   "users": [
     {
-      "userID": 1,
+      "userId": 1,
       "username": "admin",
-      "password": "adminpassword",
+      "password": "123",
       "role": "admin"
     },
     {
-      "userID": 2,
+      "userId": 2,
       "username": "user1",
-      "password": "userpassword1",
+      "password": "123",
       "role": "user"
     },
     {
-      "userID": 3,
+      "userId": 3,
       "username": "user2",
-      "password": "userpassword2",
+      "password": "123",
       "role": "user"
     }
   ],
   "reviews": [
     {
-      "reviewID": 1,
-      "courseID": 1,
-      "studentID": 1,
+      "reviewId": 1,
+      "courseId": 1,
+      "studentId": 1,
       "rating": 5,
       "comment": "Khóa học rất hữu ích và giảng viên rất nhiệt tình."
     },
     {
-      "reviewID": 2,
-      "courseID": 2,
-      "studentID": 2,
+      "reviewId": 2,
+      "courseId": 2,
+      "studentId": 2,
       "rating": 4,
       "comment": "Khóa học tốt nhưng cần thêm tài liệu tham khảo."
     }
   ],
   "blogs": [
     {
-      "blogID": 1,
+      "blogId": 1,
       "title": "Cách học hiệu quả",
       "content": "Để học hiệu quả, bạn cần có kế hoạch học tập rõ ràng và kiên trì thực hiện.",
       "authorID": 1
     },
     {
-      "blogID": 2,
+      "blogId": 2,
       "title": "Thiết kế web hiện đại",
       "content": "Thiết kế web hiện đại cần chú trọng đến trải nghiệm người dùng và tính tương thích trên nhiều thiết bị.",
       "authorID": 2
@@ -179,14 +160,14 @@
   ],
   "supportTickets": [
     {
-      "ticketID": 1,
-      "studentID": 1,
+      "ticketId": 1,
+      "studentId": 1,
       "issue": "Không truy cập được vào khóa học",
       "status": "Đang xử lý"
     },
     {
-      "ticketID": 2,
-      "studentID": 2,
+      "ticketId": 2,
+      "studentId": 2,
       "issue": "Không nhận được hóa đơn",
       "status": "Đã giải quyết"
     }
@@ -194,13 +175,13 @@
   "notifications": [
     {
       "notificationID": 1,
-      "userID": 1,
+      "userId": 1,
       "message": "Khóa học mới: Thiết kế web nâng cao",
       "date": "2025-01-15"
     },
     {
       "notificationID": 2,
-      "userID": 2,
+      "userId": 2,
       "message": "Chương trình giảm giá 20% cho khóa học UI/UX",
       "date": "2025-01-15"
     }

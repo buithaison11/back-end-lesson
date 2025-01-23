@@ -1,40 +1,13 @@
 {
   "courses": [
     {
-      "id": 1,
-      "courseName": "Thiết kế web cơ bản",
-      "description": "Nhận khóa học tốt nhất, tích lũy kiến thức và tỏa sáng cho sự nghiệp tương lai của bạn.",
-      "price": 2000000,
-      "duration": 40,
-      "image": "https://cdn.codegym.vn/wp-content/uploads/2024/01/hoc-lap-trinh-scaled.jpg",
-      "instructorId": 1
-    },
-    {
-      "id": 2,
-      "courseName": "Thiết kế UI/UX",
-      "description": "Nhận khóa học tốt nhất, tích lũy kiến thức và tỏa sáng cho sự nghiệp tương lai của bạn.",
-      "price": 2000000,
-      "duration": 35,
-      "image": "https://cdn.codegym.vn/wp-content/uploads/2024/01/hoc-lap-trinh-scaled.jpg",
-      "instructorId": 2
-    },
-    {
-      "id": 3,
-      "courseName": "Thiết kế UI/UX",
-      "description": "Nhận khóa học tốt nhất, tích lũy kiến thức và tỏa sáng cho sự nghiệp tương lai của bạn.",
-      "price": 2000000,
-      "duration": 35,
-      "image": "https://cdn.codegym.vn/wp-content/uploads/2024/01/hoc-lap-trinh-scaled.jpg",
-      "instructorId": 2
-    },
-    {
-      "courseName": "2",
-      "description": "2",
-      "price": 2,
-      "duration": 2,
-      "image": "https://cdn.codegym.vn/wp-content/uploads/2024/01/hoc-lap-trinh-scaled.jpg",
-      "instructorId": "1",
-      "id": 9
+      "courseName": "1",
+      "description": "1q",
+      "price": 2222,
+      "duration": 1,
+      "image": "1",
+      "instructorId": "3",
+      "id": 1
     },
     {
       "courseName": "1",
@@ -42,22 +15,94 @@
       "price": 1,
       "duration": 1,
       "image": "1",
-      "instructorId": "1",
-      "id": 10
+      "instructorId": "3",
+      "id": 2
+    },
+    {
+      "courseName": "1",
+      "description": "1",
+      "price": 1,
+      "duration": 1,
+      "image": "1",
+      "instructorId": "3",
+      "id": 3
+    },
+    {
+      "courseName": "1",
+      "description": "1",
+      "price": 1,
+      "duration": 1,
+      "image": "1",
+      "instructorId": "8",
+      "id": 4
+    },
+    {
+      "courseName": "1",
+      "description": "1",
+      "price": 1,
+      "duration": 1,
+      "image": "1",
+      "instructorId": "9",
+      "id": 5
+    },
+    {
+      "courseName": "1",
+      "description": "1",
+      "price": 1,
+      "duration": 1,
+      "image": "https://cdn.codegym.vn/wp-content/uploads/2024/01/hoc-lap-trinh-scaled.jpg",
+      "instructorId": "9",
+      "id": 6
     }
   ],
   "instructors": [
     {
-      "id": 1,
-      "instructorName": "Nguyễn Văn A",
-      "bio": "Giảng viên thiết kế web với nhiều năm kinh nghiệm.",
-      "email": "nguyenvana@example.com"
-    },
-    {
-      "id": 2,
       "instructorName": "Trần Thị B",
       "bio": "Chuyên gia thiết kế UI/UX.",
-      "email": "tranthib@example.com"
+      "emailIns": "tranthib1@example.com",
+      "id": 3
+    },
+    {
+      "id": 1,
+      "instructorName": "Trần Thị B",
+      "bio": "Chuyên gia thiết kế UI/UX.",
+      "emailIns": "tranthib@example.com"
+    },
+    {
+      "instructorName": "123",
+      "bio": "123",
+      "emailIns": "1@mailinator.com",
+      "id": 4
+    },
+    {
+      "instructorName": "123",
+      "bio": "123",
+      "emailIns": "1123123@mailinator.com",
+      "id": 6
+    },
+    {
+      "instructorName": "123",
+      "bio": "123",
+      "emailIns": "1123123@mailinator.com",
+      "id": 7
+    },
+    {
+      "instructorName": "123",
+      "bio": "123",
+      "emailIns": "1123123@mailinator.com",
+      "id": 8
+    },
+    {
+      "instructorName": "123",
+      "bio": "123",
+      "emailIns": "1123123@mailinator.com",
+      "id": 9
+    },
+    {
+      "instructorName": "123",
+      "bio": "123",
+      "emailIns": "1123123@mailinator.com",
+      "id": 10
     }
   ],
   "students": [
@@ -146,30 +191,48 @@
   ],
   "blogs": [
     {
-      "blogId": 1,
+      "id": 1,
       "title": "Cách học hiệu quả",
       "content": "Để học hiệu quả, bạn cần có kế hoạch học tập rõ ràng và kiên trì thực hiện.",
-      "authorID": 1
+      "studentId": 1
     },
     {
-      "blogId": 2,
+      "id": 2,
       "title": "Thiết kế web hiện đại",
       "content": "Thiết kế web hiện đại cần chú trọng đến trải nghiệm người dùng và tính tương thích trên nhiều thiết bị.",
-      "authorID": 2
+      "studentId": 2
+    },
+    {
+      "title": "abc11111111",
+      "content": "1111111111111111111",
+      "studentId": "1",
+      "id": 3
     }
   ],
   "supportTickets": [
     {
-      "ticketId": 1,
+      "id": 1,
       "studentId": 1,
       "issue": "Không truy cập được vào khóa học",
       "status": "Đang xử lý"
     },
     {
-      "ticketId": 2,
+      "id": 2,
       "studentId": 2,
       "issue": "Không nhận được hóa đơn",
       "status": "Đã giải quyết"
+    },
+    {
+      "studentId": "2",
+      "issue": "toi bi lag",
+      "status": "Đang xử lý",
+      "id": 3
+    },
+    {
+      "studentId": "2",
+      "issue": "toi bi lag",
+      "status": "Đang xử lý",
+      "id": 4
     }
   ],
   "notifications": [

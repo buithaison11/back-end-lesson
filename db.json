@@ -1,156 +1,151 @@
 {
   "courses": [
     {
-      "courseName": "1",
-      "description": "1q",
-      "price": 2222,
-      "duration": 1,
-      "image": "1",
+      "courseName": "Thiết kế giao diện đơn giản",
+      "description": "Giúp người học thiết kế giao diện đơn giản ",
+      "price": 600000,
+      "duration": 18,
+      "image": "https://icons.getbootstrap.com/assets/img/icons-hero.png",
       "instructorId": "3",
       "id": 1
     },
     {
-      "courseName": "1",
-      "description": "1",
-      "price": 1,
-      "duration": 1,
-      "image": "1",
-      "instructorId": "3",
+      "courseName": "Lập trình web đơn giản",
+      "description": "Lập trình web đơn giản cho người mới bắt đầu",
+      "price": 1000000,
+      "duration": 26,
+      "image": "https://icons.getbootstrap.com/assets/img/icons-hero.png",
+      "instructorId": "4",
       "id": 2
     },
     {
-      "courseName": "1",
-      "description": "1",
-      "price": 1,
-      "duration": 1,
-      "image": "1",
-      "instructorId": "3",
+      "courseName": "Làm việc với dữ liệu",
+      "description": "Làm việc với dữ liệu cho người mới bắt đầu",
+      "price": 1500000,
+      "duration": 32,
+      "image": "https://icons.getbootstrap.com/assets/img/icons-hero.png",
+      "instructorId": "4",
       "id": 3
     },
     {
-      "courseName": "1",
-      "description": "1",
-      "price": 1,
-      "duration": 1,
-      "image": "1",
-      "instructorId": "8",
+      "courseName": "Làm việc với dữ liệu pro",
+      "description": "Làm việc với dữ liệu cho người pro",
+      "price": 5000000,
+      "duration": 52,
+      "image": "https://srv.carbonads.net/static/30242/4b723271609d12c16fec10ddea2ce78e9bba0517",
+      "instructorId": "6",
       "id": 4
     },
     {
-      "courseName": "1",
-      "description": "1",
-      "price": 1,
-      "duration": 1,
-      "image": "1",
-      "instructorId": "9",
+      "courseName": "Làm việc với giao diện pro",
+      "description": "Làm việc với giao diện pro",
+      "price": 5000000,
+      "duration": 52,
+      "image": "https://srv.carbonads.net/static/30242/4b723271609d12c16fec10ddea2ce78e9bba0517",
+      "instructorId": "6",
       "id": 5
-    },
-    {
-      "courseName": "1",
-      "description": "1",
-      "price": 1,
-      "duration": 1,
-      "image": "https://cdn.codegym.vn/wp-content/uploads/2024/01/hoc-lap-trinh-scaled.jpg",
-      "instructorId": "9",
-      "id": 6
     }
   ],
   "instructors": [
     {
-      "instructorName": "Trần Thị B",
+      "instructorName": "Trần Thị Anh",
       "bio": "Chuyên gia thiết kế UI/UX.",
-      "emailIns": "tranthib1@example.com",
+      "emailIns": "tranthianh@example.com",
       "id": 3
     },
     {
-      "id": 1,
-      "instructorName": "Trần Thị B",
-      "bio": "Chuyên gia thiết kế UI/UX.",
-      "emailIns": "tranthib@example.com"
-    },
-    {
-      "instructorName": "123",
-      "bio": "123",
-      "emailIns": "1@mailinator.com",
+      "instructorName": "Nguyễn Văn An",
+      "bio": "Chuyên viên phần mềm",
+      "emailIns": "nguyenvanan@gmail.com",
       "id": 4
     },
     {
-      "instructorName": "123",
-      "bio": "123",
-      "emailIns": "1123123@mailinator.com",
+      "instructorName": "Vũ Thị Kiều",
+      "bio": "Chuyên viên thiết kế đồ họa",
+      "emailIns": "vuthikieu@gmail.com",
+      "id": 5
+    },
+    {
+      "instructorName": "Nguyễn Thị Oanh",
+      "bio": "Chuyên viên dữ liệu",
+      "emailIns": "nguyenthioanh@gmail.com",
       "id": 6
-    },
-    {
-      "instructorName": "123",
-      "bio": "123",
-      "emailIns": "1123123@mailinator.com",
-      "id": 7
-    },
-    {
-      "instructorName": "123",
-      "bio": "123",
-      "emailIns": "1123123@mailinator.com",
-      "id": 8
-    },
-    {
-      "instructorName": "123",
-      "bio": "123",
-      "emailIns": "1123123@mailinator.com",
-      "id": 9
-    },
-    {
-      "instructorName": "123",
-      "bio": "123",
-      "emailIns": "1123123@mailinator.com",
-      "id": 10
     }
   ],
   "students": [
     {
-      "studentId": 1,
-      "studentName": "Lê Văn C",
-      "email": "levanc@example.com",
-      "enrollmentdate": "2025-01-12"
-    },
-    {
-      "studentId": 2,
+      "id": 2,
       "studentName": "Phạm Thị D",
       "email": "phamthid@example.com",
-      "enrollmentdate": "2025-01-12"
+      "courseId": 2,
+      "enrollmentDate": "2025-01-12"
+    },
+    {
+      "studentName": "Nguyễn Văn Ánh",
+      "email": "nguyenvananh@gmail.com",
+      "courseId": 3,
+      "enrollmentDate": "2025-01-27",
+      "id": 3
+    },
+    {
+      "studentName": "Nguyễn Thị Lan",
+      "email": "nguyenthilan@gmail.com",
+      "courseId": 2,
+      "enrollmentDate": "2025-01-27",
+      "id": 4
+    },
+    {
+      "studentName": "Nguyễn Thị Lan Anh",
+      "email": "nguyenthilananh@gmail.com",
+      "courseId": 2,
+      "enrollmentDate": "2025-01-27",
+      "id": 5
+    },
+    {
+      "studentName": "Nguyễn Thị An",
+      "email": "nguyenthian@gmail.com",
+      "courseId": 2,
+      "enrollmentDate": "2025-01-27",
+      "id": 6
+    },
+    {
+      "studentName": "Nguyễn Thị Quỳnh",
+      "email": "nguyenthiquynh@gmail.com",
+      "courseId": 1,
+      "enrollmentDate": "2025-01-27",
+      "id": 7
     }
   ],
   "enrollments": [
     {
-      "enrollmentId": 1,
-      "studentId": 1,
+      "id": 1,
       "courseId": 1,
-      "enrollmentdate": "2025-01-12",
+      "enrollmentDate": "2025-01-12",
       "status": "Đang học"
     },
     {
-      "enrollmentId": 2,
-      "studentId": 2,
+      "id": 2,
       "courseId": 2,
-      "enrollmentdate": "2025-01-12",
+      "enrollmentDate": "2025-01-12",
       "status": "Đang học"
     }
   ],
   "transactions": [
     {
-      "transactionID": 1,
-      "studentId": 1,
+      "id": 1,
       "courseId": 1,
+      "studentId": 3,
       "amount": 2000000,
-      "transactiondate": "2025-01-12",
-      "paymentMethod": "Credit Card"
+      "transactionDate": "2025-01-12",
+      "paymentMethod": "Chuyển khoản qua ngân hàng"
     },
     {
-      "transactionID": 2,
-      "studentId": 2,
+      "id": 2,
       "courseId": 2,
+      "studentId": 3,
       "amount": 2000000,
-      "transactiondate": "2025-01-12",
-      "paymentMethod": "Credit Card"
+      "transactionDate": "2025-01-12",
+      "paymentMethod": "Chuyển khoản qua ngân hàng"
     }
   ],
   "users": [
@@ -175,76 +170,96 @@
   ],
   "reviews": [
     {
-      "reviewId": 1,
-      "courseId": 1,
-      "studentId": 1,
+      "studentId": 3,
+      "courseId": 2,
+      "id": 1,
       "rating": 5,
       "comment": "Khóa học rất hữu ích và giảng viên rất nhiệt tình."
     },
     {
-      "reviewId": 2,
+      "studentId": 4,
       "courseId": 2,
-      "studentId": 2,
+      "id": 2,
       "rating": 4,
-      "comment": "Khóa học tốt nhưng cần thêm tài liệu tham khảo."
+      "comment": "Khóa học rất hữu ích và giảng viên rất nhiệt tình."
+    },
+    {
+      "studentId": 5,
+      "courseId": 2,
+      "id": 3,
+      "rating": 5,
+      "comment": "Khóa học rất hữu ích và giảng viên rất nhiệt tình."
+    },
+    {
+      "studentId": 6,
+      "courseId": 2,
+      "id": 4,
+      "rating": 5,
+      "comment": "Khóa học rất hữu ích và giảng viên rất nhiệt tình."
+    },
+    {
+      "studentId": 7,
+      "courseId": 1,
+      "id": 5,
+      "rating": 5,
+      "comment": "Khóa học rất hữu ích và giảng viên rất nhiệt tình."
+    },
+    {
+      "studentId": 3,
+      "courseId": 1,
+      "id": 6,
+      "rating": 5,
+      "comment": "Khóa học rất hữu ích và giảng viên rất nhiệt tình."
     }
   ],
   "blogs": [
     {
-      "id": 1,
       "title": "Cách học hiệu quả",
-      "content": "Để học hiệu quả, bạn cần có kế hoạch học tập rõ ràng và kiên trì thực hiện.",
-      "studentId": 1
-    },
-    {
-      "id": 2,
-      "title": "Thiết kế web hiện đại",
-      "content": "Thiết kế web hiện đại cần chú trọng đến trải nghiệm người dùng và tính tương thích trên nhiều thiết bị.",
-      "studentId": 2
-    },
-    {
-      "title": "abc11111111",
-      "content": "1111111111111111111",
-      "studentId": "1",
+      "content": "Cách học hiệu quả Cách học hiệu quả Cách học hiệu quả Cách học hiệu quả",
+      "studentId": 2,
       "id": 3
+    },
+    {
+      "title": "Cách học hiệu quả",
+      "content": "Cách học hiệu quảCách học hiệu quảCách học hiệu quảCách học hiệu quảCách học hiệu quảCách học hiệu quảCách học hiệu quảCách học hiệu quả",
+      "studentId": 2,
+      "id": 4
+    },
+    {
+      "title": "cách học giỏi",
+      "content": "cách học giỏicách học giỏicách học giỏicách học giỏicách học giỏicách học giỏicách học giỏicách học giỏicách học giỏicách học giỏi",
+      "studentId": 2,
+      "id": 5
     }
   ],
-  "supportTickets": [
+  "supports": [
     {
-      "id": 1,
-      "studentId": 1,
-      "issue": "Không truy cập được vào khóa học",
-      "status": "Đang xử lý"
-    },
-    {
-      "id": 2,
-      "studentId": 2,
-      "issue": "Không nhận được hóa đơn",
-      "status": "Đã giải quyết"
+      "studentId": "2",
+      "issue": "Không vào được khóa học web đơn  giản",
+      "status": "Đang xử lý",
+      "id": 1
     },
     {
       "studentId": "2",
-      "issue": "toi bi lag",
+      "issue": "Hệ thống bị lỗi không thể thanh toán",
+      "status": "Đang xử lý",
+      "id": 2
+    },
+    {
+      "studentId": "2",
+      "issue": "Khóa học thiết kế không đúng như mô tả",
       "status": "Đang xử lý",
       "id": 3
-    },
-    {
-      "studentId": "2",
-      "issue": "toi bi lag",
-      "status": "Đang xử lý",
-      "id": 4
     }
   ],
   "notifications": [
     {
       "notificationID": 1,
-      "userId": 1,
       "message": "Khóa học mới: Thiết kế web nâng cao",
       "date": "2025-01-15"
     },
     {
       "notificationID": 2,
-      "userId": 2,
       "message": "Chương trình giảm giá 20% cho khóa học UI/UX",
       "date": "2025-01-15"
     }

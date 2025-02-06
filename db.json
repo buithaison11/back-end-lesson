@@ -44,6 +44,15 @@
       "image": "https://srv.carbonads.net/static/30242/4b723271609d12c16fec10ddea2ce78e9bba0517",
       "instructorId": "6",
       "id": 5
+    },
+    {
+      "courseName": "Lập trình ứng dụng trên điện thoại",
+      "description": "Lập trình ứng dụng trên điện thoại",
+      "price": 3000000,
+      "duration": 42,
+      "image": "https://icons.getbootstrap.com/assets/img/icons-hero.png",
+      "instructorId": "3",
+      "id": 6
     }
   ],
   "instructors": [
@@ -70,6 +79,24 @@
       "bio": "Chuyên viên dữ liệu",
       "emailIns": "nguyenthioanh@gmail.com",
       "id": 6
+    },
+    {
+      "instructorName": "Vũ Văn Anh",
+      "bio": "Chuyên về ứng dụng điện thoại",
+      "emailIns": "vuvananh@gmail.com",
+      "id": 7
+    },
+    {
+      "instructorName": "Vũ Văn Ánh",
+      "bio": "Chuyên về ứng dụng điện thoại",
+      "emailIns": "vuvananh@gmail.com",
+      "id": 8
+    },
+    {
+      "instructorName": "Vũ Văn Ban",
+      "bio": "Chuyên về ứng dụng điện thoại",
+      "emailIns": "vuvanban@gmail.com",
+      "id": 9
     }
   ],
   "students": [
@@ -111,9 +138,16 @@
     {
       "studentName": "Nguyễn Thị Quỳnh",
       "email": "nguyenthiquynh@gmail.com",
-      "courseId": 1,
-      "enrollmentDate": "2025-01-27",
+      "courseId": 2,
+      "enrollmentDate": "2025-02-05",
       "id": 7
+    },
+    {
+      "studentName": "Nguyễn Thị Quyên",
+      "email": "nguyenthiquynh@gmail.com",
+      "courseId": 2,
+      "enrollmentDate": "2025-02-06",
+      "id": 8
     }
   ],
   "enrollments": [
@@ -146,6 +180,14 @@
       "amount": 2000000,
       "transactionDate": "2025-01-12",
       "paymentMethod": "Chuyển khoản qua ngân hàng"
+    },
+    {
+      "studentId": "5",
+      "courseId": "4",
+      "amount": 3000000,
+      "transactionDate": "2025-02-06",
+      "paymentMethod": "Thanh toán bằng tiền mặt",
+      "id": 4
     }
   ],
   "users": [
@@ -198,16 +240,30 @@
       "comment": "Khóa học rất hữu ích và giảng viên rất nhiệt tình."
     },
     {
-      "studentId": 7,
+      "studentId": 3,
       "courseId": 1,
-      "id": 5,
+      "id": 6,
       "rating": 5,
       "comment": "Khóa học rất hữu ích và giảng viên rất nhiệt tình."
     },
     {
       "studentId": 3,
       "courseId": 1,
-      "id": 6,
+      "id": 7,
+      "rating": 5,
+      "comment": "Khóa học rất hữu ích và giảng viên rất nhiệt tình."
+    },
+    {
+      "studentId": 3,
+      "courseId": 1,
+      "id": 8,
+      "rating": 5,
+      "comment": "Khóa học rất hữu ích và giảng viên rất nhiệt tình."
+    },
+    {
+      "studentId": 3,
+      "courseId": 1,
+      "id": 9,
       "rating": 5,
       "comment": "Khóa học rất hữu ích và giảng viên rất nhiệt tình."
     }
@@ -234,34 +290,83 @@
   ],
   "supports": [
     {
-      "studentId": "2",
+      "status": "Đã được xử lý",
       "issue": "Không vào được khóa học web đơn  giản",
-      "status": "Đang xử lý",
+      "studentId": "2",
       "id": 1
     },
     {
+      "status": "Xử lý thất bại",
+      "issue": "Khóa học thiết kế không đúng như mô tả",
       "studentId": "2",
-      "issue": "Hệ thống bị lỗi không thể thanh toán",
-      "status": "Đang xử lý",
-      "id": 2
+      "id": 3
+    },
+    {
+      "status": "Đã được xử lý",
+      "issue": "Không vào được khóa học web đơn  giản",
+      "studentId": "2",
+      "id": 4
+    },
+    {
+      "status": "Đã được xử lý",
+      "issue": "Không vào được khóa học web đơn  giản",
+      "studentId": "2",
+      "id": 6
     },
     {
       "studentId": "2",
-      "issue": "Khóa học thiết kế không đúng như mô tả",
+      "issue": "Không vào được khóa học web đơn  giản",
       "status": "Đang xử lý",
-      "id": 3
+      "id": 7
+    },
+    {
+      "studentId": "2",
+      "issue": "Không vào được khóa học web đơn  giản",
+      "status": "Đang xử lý",
+      "id": 8
+    },
+    {
+      "studentId": "2",
+      "issue": "Không vào được khóa học web đơn  giản",
+      "status": "Đang xử lý",
+      "id": 9
     }
   ],
   "notifications": [
     {
-      "notificationID": 1,
-      "message": "Khóa học mới: Thiết kế web nâng cao",
+      "message": "Khóa học: Lập trình ứng dụng mới ra mắt",
+      "date": "2025-02-06",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "message": "Chương trình giảm giá 20% cho khóa học UI/UX",
       "date": "2025-01-15"
     },
     {
-      "notificationID": 2,
+      "id": 3,
       "message": "Chương trình giảm giá 20% cho khóa học UI/UX",
       "date": "2025-01-15"
+    },
+    {
+      "id": 4,
+      "message": "Chương trình giảm giá 20% cho khóa học UI/UX",
+      "date": "2025-01-15"
+    },
+    {
+      "id": 6,
+      "message": "Chương trình giảm giá 20% cho khóa học UI/UX",
+      "date": "2025-01-15"
+    },
+    {
+      "message": "1",
+      "date": "2025-02-06",
+      "id": 7
+    },
+    {
+      "message": "Director",
+      "date": "2025-02-06",
+      "id": 8
     }
   ]
 }
